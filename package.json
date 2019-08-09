@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify js/index.js -t scssify > bundle.js",
+    "watch": "watchify js/index.js -t scssify -o bundle.js"
   },
   "keywords": [],
   "author": "",
