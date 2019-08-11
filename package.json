@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "browserify js/index.js -t scssify > bundle.js",
-    "watch": "watchify js/index.js -t scssify -o bundle.js"
+    "build": "browserify assets/js/main.js -t scssify > bundle.js",
+    "watch": "watchify assets/js/main.js -t scssify -o bundle.js"
   },
   "keywords": [],
   "author": "",

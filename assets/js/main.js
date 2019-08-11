@@ -3,8 +3,12 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
-(function($) {
+require('../sass/main.scss');
+require('../sass/noscript.scss');
+var $ = require('jquery');
+var breakpoints = require('./breakpoints.min');
+var browser = require('./browser.min.js');
+// (function($) {
 
 	// Settings.
 		var settings = {
@@ -756,4 +760,4 @@
 
 					});
 
-})(jQuery);
+// })(jQuery);
