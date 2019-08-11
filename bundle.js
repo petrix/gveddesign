@@ -392,7 +392,7 @@ var browser = require('./browser.min.js');
 								return;
 
 						// Prevent default.
-							event.preventDefault();
+							// event.preventDefault();
 							event.stopPropagation();
 
 						// Stop link scroll.
