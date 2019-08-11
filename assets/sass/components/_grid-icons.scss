@@ -17,8 +17,12 @@
 		.icon {
 			display: block;
 			position: relative;
-			width: 100%;
+			width: 7rem;
+			height: 7rem;
 			text-align: center;
+			border: 2px solid _palette(border);
+			border-radius: 50%;
+			overflow: hidden;
 
 			&:before {
 				display: block;
@@ -26,7 +30,7 @@
 				height: 6rem;
 				line-height: 6rem;
 				border-radius: 6rem;
-				box-shadow: inset 0 0 0 2px _palette(border);
+				// box-shadow: inset 0 0 0 2px _palette(border);
 				font-size: 2.5rem;
 				margin: 0 auto;
 				text-align: center;
@@ -94,7 +98,7 @@
 		}
 
 		&.three {
-			width: 21.5rem;
+			width: 24.5rem;
 
 			> li {
 				&:nth-child(-n + 3) {

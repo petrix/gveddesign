@@ -4,14 +4,39 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import '../assets/webfonts/fontawesome.css';
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
-
+// @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
+@import '../assets/webfonts/jura-font/jura-stylesheet.css';
 /*
 	Ethereal by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+.starlight{
+	background: url('../../images/ag-icons/starlight.png') center center no-repeat;
+	background-size: contain;
+	// width: 100%;
+	// height: 100%;
+}
+.inter{
+	background: url('../../images/ag-icons/inter_media_group.png') center center no-repeat;
+	background-size: contain;
+}
+.brg{
+	background: url('../../images/ag-icons/business-radio-group.png') center center no-repeat;
+	background-size: contain;
+}
+.global-sprint{
+	background: url('../../images/ag-icons/global-spirits.png') center center no-repeat;
+	background-size: contain;
+}
+.richmond{
+	background: url('../../images/ag-icons/john-richmond.png') center center no-repeat;
+	background-size: contain;
+}
+.sol{
+	background: url('../../images/ag-icons/sol-ostalnoe-myaso.png') center center no-repeat;
+	background-size: contain;
+}
 // Breakpoints.
 
 	@include breakpoints((
